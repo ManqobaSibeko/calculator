@@ -30,6 +30,7 @@ body{
     border-radius: 4px;
     box-sizing: border-box;
     color: white;
+    transition: .5s;
 }
 .bn{
     width: 55px;
@@ -41,4 +42,10 @@ body{
     border: 5px solid white;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.bn:hover{
+transform: scale(1.08);
+font-size: 25px;
 }
